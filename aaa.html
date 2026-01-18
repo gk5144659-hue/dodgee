@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images</title>
+
+    <style>
+
+        body{
+            background-color: rgb(247, 200, 182);
+        }
+
+        h1{
+            text-align: center;
+            background-image: url(https://cdn.britannica.com/97/1597-050-008F30FA/Flag-India.jpg);
+            background-size: contain;
+            background-clip: text;
+            color: transparent;
+            animation: animate 20s linear infinite;
+            font-size: 500px;   
+}
+        @keyframes animate {
+            to{
+                background-position: 500px;
+            }
+        }
+
+
+        .bhoot {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border: 20px ridge red;
+}
+
+    .bhoot img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: drop-shadow(6px 7px 5px rgb(6, 6, 6));
+    }
+
+
+    </style>
+</head>
+<body>
+  <main>
+    <h1>INDIA</h1>
+    <section>
+        <div class="bhoot"><img src="photoz/bhoot.png" alt=""></div>
+    </section>
+  </main>
+</body>
+</html>
